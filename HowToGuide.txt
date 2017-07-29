@@ -1,0 +1,7 @@
+How to setup an weather station on a raspberry pi
+1. apt-get update
+2. apt-get upgrade
+3. install apache - sudo apt-get install apache2
+4. enable cgi - sudo a2enmod cgid
+5. update config file
+6. 
