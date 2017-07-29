@@ -7,3 +7,10 @@ How to setup an weather station on a raspberry pi
 6. test if python is working
 7. Set up the SQLite database - http://raspberrywebserver.com/cgiscripting/rpi-temperature-logger/building-an-sqlite-temperature-logger.html
 8. set permission for sql lite database - sudo chown www-data:www-data /var/www/templog.db 
+9. create the database if not already done. http://raspberrywebserver.com/cgiscripting/rpi-temperature-logger/
+10. test weather logger
+11. setup python scripts
+12. set permissions and user account to use
+13. setup temperature sensor
+14. setup cronjob to run every x minutes
+15. done
