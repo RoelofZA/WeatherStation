@@ -3,5 +3,7 @@ How to setup an weather station on a raspberry pi
 2. apt-get upgrade
 3. install apache - sudo apt-get install apache2
 4. enable cgi - sudo a2enmod cgid
-5. update config file
-6. 
+5. update config file - https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=155229
+6. test if python is working
+7. Set up the SQLite database - http://raspberrywebserver.com/cgiscripting/rpi-temperature-logger/building-an-sqlite-temperature-logger.html
+8. set permission for sql lite database - sudo chown www-data:www-data /var/www/templog.db 
