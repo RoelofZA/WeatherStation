@@ -14,3 +14,8 @@ How to setup an weather station on a raspberry pi
 13. setup temperature sensor
 14. setup cronjob to run every x minutes
 15. done
+
+
+Time Laps Photos
+http://www.makeuseof.com/tag/raspberry-pi-camera-module/
+sudo rpi-update
