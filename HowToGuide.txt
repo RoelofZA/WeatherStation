@@ -19,3 +19,5 @@ How to setup an weather station on a raspberry pi
 Time Laps Photos
 http://www.makeuseof.com/tag/raspberry-pi-camera-module/
 sudo rpi-update
+avconv -r 10 -i image%03d.jpg -r 10 -vcodec libx264 -vf scale=1280:720 timelapse.mp4
+scp pi@192.168.1.105:Desktop/*.mp4 .
